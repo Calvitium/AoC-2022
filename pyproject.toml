@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aoc-2022"
+version = "0.1.0"
+description = ""
+authors = ["calvitium <mateusz@marciniewicz.com>"]
+readme = "README.md"
+packages = [{include = "aoc_2022"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+ipykernel = "^6.17.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

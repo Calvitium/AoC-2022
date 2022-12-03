@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/datarootsio/databooks
+    rev: 1.3.6
+    hooks:
+      - id: databooks-meta
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.4.0
+    hooks:
+      - id: nbqa-black    
+
+      
